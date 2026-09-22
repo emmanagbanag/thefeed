@@ -1,0 +1,383 @@
+body {
+  background-image: url("../img/pinkgingham.gif");
+  font-family: 'lemon';
+  margin: 0;
+}
+
+header {
+  margin-top: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+ @font-face {
+    font-family: 'lemon';
+    src: url('../fonts/LEMONMILK-Regular.otf');
+  }
+
+  @font-face {
+    font-family: 'dantene';
+    src: url('../fonts/Dantene.otf');
+  }
+
+.top-stripe {
+  height: 70px;
+  background-color: #ed9caf;
+  width: 100%;
+  padding: 60px;
+  position: fixed;
+  box-shadow: 5px 5px 10px 2px rgba(161, 97, 105, 0.612);
+  z-index: 3;
+}
+
+.kitten {
+  width: 8%;
+  margin-top: 74px;
+  margin-left: 10px;
+  margin-bottom: 300px;
+  position: fixed;
+  z-index: 3;
+}
+
+#em {
+    transform: rotate(-3deg);
+    font-size: 100px;
+    font-family:'dantene';
+    margin-left: 10%;
+    margin-top: 24px;
+    margin-bottom: 200px;
+    position: fixed; 
+    z-index: 3;
+}
+
+#emprofile p{
+  margin-left: 10%;
+  margin-top: 12%;
+  margin-bottom: -400px;
+  font-size: 54px;
+  text-shadow:
+        0 0 5px #fff,
+        0 0 10px #fff,
+        0 0 20px #e782a4,
+        0 0 40px #e782a4,
+        0 0 80px #fff;
+  z-index: 2;
+  position: absolute;
+}
+
+#emprofile img{
+  max-width: 28%;
+  transform: rotate(-3deg);
+  border-radius: 20px;
+  margin-left: 14%;
+  margin-top: 20%;
+  margin-bottom: -360px;
+  z-index: 0;
+  padding: 10px;
+  border: 20px ridge #d68c98;
+}
+
+.spotify {          
+  overflow: hidden;     
+  border-radius: 12px;   
+  margin-left: 58%;
+  margin-bottom: 400px;
+}
+
+
+
+#parktrip {
+  margin-left: 45%;
+  font-size: 120px;
+  margin-top: -18%;
+  margin-bottom: -2%;
+  font-family: 'dantene';
+}
+
+.book img {
+  margin-left: 6%;
+}
+
+.notebookitems {
+  margin-top: -1050px;
+  margin-bottom: 5%;
+}
+
+.buspic {
+    max-width: 20%;
+    height: auto;
+    display: block;
+    margin-left: 15%;
+    font-family: 'lemon';
+}
+
+.buspic img {
+  border:#ed9caf solid 6px;
+  border-radius: 15px;
+}
+
+.picss{
+  display: flex;
+  align-items: center;
+  margin-left: 14%;
+  gap: 20px;
+  font-family: 'lemon';
+}
+
+.picss video{
+    max-width: 17%;
+    border:#ed9caf solid 6px;
+    border-radius: 15px;
+    height: auto;
+    margin-top: -2%;
+}
+
+.parkgallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 42%;  
+    margin-left: 53%;
+    margin-top: -900px;
+}
+
+.facetime img{
+    max-width: 250px;
+    height: auto;
+    border:#ed9caf solid 6px;
+    border-radius: 15px;
+}
+
+.steps img {
+    max-width: 200px;
+    height: auto;
+    margin-top: -80%;
+    margin-left: 100%;
+    margin-bottom: 29px;
+    border:#ed9caf solid 6px;
+    border-radius: 15px;
+}
+
+.dahlias img{
+    max-width: 270px;
+    height: auto;
+    border:#ed9caf solid 6px;
+    border-radius: 15px;
+}
+
+.music img {
+    max-width: 260px;
+    height: auto;
+    margin-left: -15%;
+    border:#ed9caf solid 6px;
+    border-radius: 15px;
+}
+
+.maps p {
+    width: 100%;
+    margin-top: 4px;
+}
+
+.maps img{
+    max-width: 210px;
+    height: auto;
+    margin-top: -28%;
+    border:#ed9caf solid 6px;
+    border-radius: 15px;
+}
+
+#crossdevice {
+  font-family: 'dantene';
+  font-size: 55px;
+  margin-left: 41%;
+}
+
+.titles {
+  width: 30%;
+  text-align: left;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-left: 39%;
+  text-decoration: none;
+}
+
+#homework {
+  font-size: 20px;
+  padding: 10px;
+  background-color: #ed9caf;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+#research {
+  font-size: 20px;
+  padding: 10px;
+  background-color: #ed9caf;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+#music {
+  font-size: 20px;
+  padding: 10px;
+  background-color: #ed9caf;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.laptopgallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    margin-left: 20px;
+}
+
+.laptopgallery p {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.laptopitem video {
+    max-width: 99%;
+    height: 80%;
+    display: block;
+}
+
+.pinterest {
+  margin-top: -10px;
+  margin-bottom: 40px;
+}
+
+.imgs1 {
+    margin-top: 200px;
+    height: 80%;
+    display: block;
+}
+
+.laptopitem p {
+    margin-top: 10px;
+}
+
+.airdropping {
+  display: inline-block;
+  margin-left: 4%;
+}
+
+.ipadair {
+  height: 550px;
+  margin-top: 50px;
+  width: auto;
+  margin: 1%;
+}
+
+.laptopair {
+  width: 40%;
+  margin: 1%;
+}
+
+.wordforipad {
+  text-align: left;
+  font-family: 20px;
+  display: flex;
+  flex-direction: row;
+  margin-left: 12%;
+  margin-right: 12%;
+  gap: 30%;
+}
+
+.researchsection {
+  width: 90%;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.insta {
+  height: 500px;
+  width: auto;
+  margin-left: 167px;
+  display: inline-flex;
+}
+
+.museum {
+  width: 70%;
+  margin-left: -80px;
+  display: inline-flex 
+}
+
+.wordforresearch {
+  text-align: center;
+  font-size: 18px;
+  display: flex;
+  flex-direction: row;
+  margin-left: 27%;
+  margin-right: 12%;
+  gap: 32%;
+}
+
+#researchtitle {
+  font-size: 50px;
+  font-family: 'dantene';
+  padding-left: 15%;
+  padding-top: 2% ;
+  padding-bottom: 2%;
+  background-color: #ed9caf;
+  margin-top: 6%;
+  margin-bottom: 2%;
+}
+
+#airdroptitle {
+  font-size: 50px;
+  font-family: 'dantene';
+  padding-left: 15%;
+  padding-top: 2% ;
+  padding-bottom: 2%;
+  background-color: #ed9caf;
+  margin-top: 6%;
+  margin-bottom: 2%;
+}
+
+#laptoptitle {
+  font-size: 50px;
+  font-family: 'dantene';
+  padding-left: 15%;
+  padding-top: 2% ;
+  padding-bottom: 2%;
+  background-color: #ed9caf;
+  margin-top: 6%;
+  margin-bottom: 2%;
+}
+
+.no-underline {
+    text-decoration: none;
+    color: inherit;
+}
+
+.sectiondetails {
+  background-color: #fdf6ec;
+  font-family: 'lemon';
+  font-size: 16px;
+  padding: 33px;
+  margin-top: -33px;
+  line-height: 45px;
+}
+
+a {
+   text-decoration: none;
+    color: inherit;
+}
+
+.link {
+  text-align: center;
+  font-size: 16px;
+  display: flex;
+  flex-direction: row;
+  margin-left: 15%;
+  margin-right: 12%;
+  margin-bottom: 20%;
+  margin-top: 10%;
+  gap: 32%;
+  color: #ed9caf; 
+}

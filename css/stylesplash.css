@@ -1,0 +1,79 @@
+body {
+    background-image: url("../img/cutepinkbg.jpg");
+    background-repeat: no-repeat; 
+    background-size: cover; 
+}
+
+ @font-face {
+    font-family: 'lemon';
+    src: url('../fonts/LEMONMILK-Regular.otf');
+  }
+
+  @font-face {
+    font-family: 'dantene';
+    src: url('../fonts/Dantene.otf');
+  }
+
+
+#kitty {
+    width: 70%;
+    margin-left: 22%;
+}
+
+.welcome {
+    font-size: 200px;
+    font-family: 'dantene';
+    margin-top: -70px;
+    padding: 20px ;
+    margin-bottom: -500px;
+    text-shadow:
+        0 0 5px #fff,
+        0 0 10px #fff,
+        0 0 20px #e782a4,
+        0 0 40px #e782a4,
+        0 0 80px #fff;
+}
+
+#insta {
+    font-size: 22px;
+    font-family: 'lemon';
+    color:#ed9caf;
+    text-decoration: none;
+    margin-left: 80%;
+}
+
+#digi {
+    font-size: 22px;
+    font-family: 'lemon';
+    margin-left: 80%;
+}
+
+.button {
+    background-color: #ed9caf;
+    background: none;
+    border: none;
+    outline: none;
+}
+
+.hover-image {
+  width: 400px;
+  height: 300px;
+  
+  background-image: url("../img/buttonmash-01.png");
+  background-size: cover;
+  background-position: center;
+  
+  transition: background-image 0.3s ease-in-out; 
+
+  margin-left: 800px;
+}
+
+.hover-image:hover {
+  background-image: url("../img/buttonmash-02.png");
+}
+
+.click {
+    display: grid;
+    grid-auto-flow: column;
+    
+}
