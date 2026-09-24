@@ -52,6 +52,13 @@ html {
     z-index: 3;
 }
 
+.running {
+  max-width: 400px;
+  margin-left: 58%;
+  margin-bottom: -55px;
+  margin-top: -200px;
+}
+
 #emprofile p{
   margin-left: 10%;
   margin-top: 12%;
@@ -77,6 +84,11 @@ html {
   z-index: 0;
   padding: 10px;
   border: 20px ridge #d68c98;
+  transition: transform 0.3s ease;
+}
+
+#emprofile:hover img {
+  transform: scale(1.05); 
 }
 
 .spotify {          
@@ -84,6 +96,7 @@ html {
   border-radius: 12px;   
   margin-left: 58%;
   margin-bottom: 400px;
+  margin-top: -100px;
 }
 
 
@@ -116,6 +129,11 @@ html {
 .buspic img {
   border:#ed9caf solid 6px;
   border-radius: 15px;
+  transition: transform 0.3s ease; 
+}
+
+.buspic:hover img {
+  transform: scale(1.05); 
 }
 
 .picss{
@@ -132,6 +150,11 @@ html {
     border-radius: 15px;
     height: auto;
     margin-top: -2%;
+    transition: transform 0.3s ease; 
+}
+
+.picss:hover video {
+  transform: scale(1.05); 
 }
 
 .parkgallery {
@@ -147,6 +170,11 @@ html {
     height: auto;
     border:#ed9caf solid 6px;
     border-radius: 15px;
+    transition: transform 0.3s ease; 
+}
+
+.facetime:hover img {
+  transform: scale(1.05); 
 }
 
 .steps img {
@@ -157,6 +185,11 @@ html {
     margin-bottom: 29px;
     border:#ed9caf solid 6px;
     border-radius: 15px;
+    transition: transform 0.3s ease; 
+}
+
+ .steps:hover img {
+  transform: scale(1.05); 
 }
 
 .dahlias img{
@@ -164,6 +197,11 @@ html {
     height: auto;
     border:#ed9caf solid 6px;
     border-radius: 15px;
+    transition: transform 0.3s ease; 
+}
+
+.dahlias:hover img {
+  transform: scale(1.05); 
 }
 
 .music img {
@@ -172,6 +210,11 @@ html {
     margin-left: -15%;
     border:#ed9caf solid 6px;
     border-radius: 15px;
+    transition: transform 0.3s ease; 
+}
+
+.music:hover img {
+  transform: scale(1.05); 
 }
 
 .maps p {
@@ -185,12 +228,18 @@ html {
     margin-top: -28%;
     border:#ed9caf solid 6px;
     border-radius: 15px;
+    transition: transform 0.3s ease; 
+}
+
+.maps:hover img {
+  transform: scale(1.05); 
 }
 
 #crossdevice {
   font-family: 'dantene';
   font-size: 55px;
   margin-left: 41%;
+  margin-top: 180px;
 }
 
 .titles {
@@ -237,7 +286,7 @@ html {
 
 .laptopgallery p {
   font-size: 20px;
-  margin-bottom: 20px;
+  margin-bottom: 150px;
 }
 
 .laptopitem video {
@@ -261,21 +310,33 @@ html {
     margin-top: 10px;
 }
 
-.airdropping {
-  display: inline-block;
-  margin-left: 4%;
+.airdropgallery {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 80px 60px;
+
+  width: 90%;
+  max-width: 1400px;
+  margin: 50px auto;
+  align-items: center;
 }
 
-.ipadair {
-  height: 550px;
-  margin-top: 50px;
-  width: auto;
-  margin: 1%;
+.airdropgallery video {
+  width: 80%;
+  max-width: 500px;
+  height: auto;
+  display: block;
+  margin: auto;
 }
 
-.laptopair {
-  width: 40%;
-  margin: 1%;
+.airdropgallery video:first-of-type {
+  width: 90%;
+  max-width: 600px;
+}
+
+.airdropgallery p {
+  font-size: 20px;
+  line-height: 1.4;
 }
 
 .wordforipad {
@@ -288,43 +349,49 @@ html {
   gap: 30%;
 }
 
-.researchsection {
+.researchgallery {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 80px 60px;
+
   width: 90%;
-  max-width: 1100px;
-  margin: 0 auto;
+  max-width: 1400px;
+  margin: 50px auto;
+
+  align-items: center;
 }
 
-.insta {
-  height: 500px;
-  width: auto;
-  margin-left: 167px;
-  display: inline-flex;
+.researchgallery video {
+  width: 80%;
+  max-width: 500px;
+  height: auto;
+  display: block;
+  margin: auto;
 }
 
-.museum {
-  width: 70%;
-  margin-left: -80px;
-  display: inline-flex 
+.researchgallery p {
+  font-size: 20px;
+  line-height: 1.4;
 }
 
-.wordforresearch {
-  text-align: center;
-  font-size: 18px;
-  display: flex;
-  flex-direction: row;
-  margin-left: 27%;
-  margin-right: 12%;
-  gap: 32%;
+.researchgallery .insta {
+  width: 65%;
+  max-width: 400px;
+}
+
+.researchgallery .museum {
+  width: 90%;
+  max-width: 600px;
 }
 
 #researchtitle {
   font-size: 50px;
   font-family: 'dantene';
   padding-left: 15%;
-  padding-top: 2% ;
-  padding-bottom: 2%;
+  padding-top: 1% ;
+  padding-bottom: 1%;
   background-color: #ed9caf;
-  margin-top: 6%;
+  margin-top: 180px;
   margin-bottom: 2%;
 }
 
@@ -332,10 +399,10 @@ html {
   font-size: 50px;
   font-family: 'dantene';
   padding-left: 15%;
-  padding-top: 2% ;
-  padding-bottom: 2%;
+  padding-top: 1% ;
+  padding-bottom: 1%;
   background-color: #ed9caf;
-  margin-top: 6%;
+  margin-top: 180px;
   margin-bottom: 2%;
 }
 
@@ -343,10 +410,10 @@ html {
   font-size: 50px;
   font-family: 'dantene';
   padding-left: 15%;
-  padding-top: 2% ;
-  padding-bottom: 2%;
+  padding-top: 1% ;
+  padding-bottom: 1%;
   background-color: #ed9caf;
-  margin-top: 6%;
+  margin-top: 180px;
   margin-bottom: 2%;
 }
 
@@ -362,6 +429,7 @@ html {
   padding: 33px;
   margin-top: -33px;
   line-height: 45px;
+  margin-bottom: 100px ;
 }
 
 a {
@@ -380,4 +448,55 @@ a {
   margin-top: 10%;
   gap: 32%;
   color: #ed9caf; 
+}
+
+#backToTop {
+  position: fixed;
+  bottom: 200px;
+  left: 30px;
+  width: 100px;
+  z-index: 9999;
+
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s ease;
+}
+
+#backToTop.show {
+  opacity: 1;
+  visibility: visible;
+}
+
+#backToTop:hover {
+  opacity: 0.5;
+}
+
+/* Hover effect for images and videos */
+
+#emprofile img,
+.buspic img,
+.picss video,
+.facetime img,
+.steps img,
+.dahlias img,
+.music img,
+.maps img,
+.laptopitem video,
+.airdropgallery video,
+.researchgallery video {
+  transition: transform 0.3s ease;
+}
+
+#emprofile img:hover,
+.buspic img:hover,
+.picss video:hover,
+.facetime img:hover,
+.steps img:hover,
+.dahlias img:hover,
+.music img:hover,
+.maps img:hover,
+.laptopitem video:hover,
+.airdropgallery video:hover,
+.researchgallery video:hover {
+  transform: scale(1.05);
 }
